@@ -1,0 +1,36 @@
+{
+    "name": "grandmasterx/encryptdectypt",
+    "description": "Encrypt-dectypt API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "GrandMasterX",
+            "email": "zgrandmasterz@gmail.com",
+            "homepage": "https://github.com/GrandMasterX/encryptdectypt"
+        }
+    ],
+    "keywords": [
+        "encrypt-dectypt",
+        "encrypt",
+        "dectypt",
+        "api",
+        "php"
+    ],
+    "license": "LGPL-2.0-or-later",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "suggest": {
+        "paragonie/sodium_compat": "Install paragonie/sodium_compat if you want to SodiumCipher.",
+        "ext-libsodium": "Install php-libsodium if you want to use SodiumCipher with higher performance and use Argon2 or Scrypt password hash."
+    },
+    "autoload": {
+        "psr-4": {
+            "grandmasterx\\encryptdectypt\\abstract\\": "abstract/",
+            "grandmasterx\\encryptdectypt\\crypto\\": "crypto/",
+            "grandmasterx\\encryptdectypt\\helper\\": "helper/",
+            "grandmasterx\\encryptdectypt\\interface\\": "interface/",
+            "grandmasterx\\encryptdectypt\\lib\\": "lib/"
+        }
+    }
+}

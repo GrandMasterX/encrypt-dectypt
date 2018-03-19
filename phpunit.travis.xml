@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="false"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	strict="true"
+	syntaxCheck="true"
+	>
+	<php>
+		<ini name="error_reporting" value="-1" />
+
+		<const name="TEST_DB_DSN_MYSQL"      value="host=localhost;dbname=test;user=root;pass=;prefix=" />
+		<!--<const name="TEST_DB_DSN_POSTGRESQL" value="host=localhost;dbname=test;user=root;pass=ut1234;prefix=" />-->
+		<!--<const name="TEST_DB_DSN_ORACLE"     value="host=localhost;port=5432;dbname=test;user=root;pass=ut1234;prefix=" />-->
+		<!--<const name="TEST_DB_DSN_MSSQL"      value="host=localhost;port=1521;dbname=test;user=root;pass=ut1234;prefix=" />-->
+		<!--<const name="TEST_DB_DSN_SQLITE"     value="host=localhost;dbname=test;user=root;pass=ut1234;prefix=" />-->
+	</php>
+	<testsuites>
+		<testsuite name="Unit">
+			<directory>Test</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
