@@ -8,7 +8,7 @@
 
 namespace grandmasterx\encryptdectypt\crypto;
 
-use grandmasterx\encryptdectypt\abstract\AbstractMcryptCipher;
+use grandmasterx\encryptdectypt\abstracts\AbstractMcryptCipher;
 
 /**
  * The BlowfishChipher class.

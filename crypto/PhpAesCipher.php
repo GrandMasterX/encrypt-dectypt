@@ -9,7 +9,7 @@
 namespace grandmasterx\encryptdectypt\crypto;
 
 use grandmasterx\encryptdectypt\lib\Aes;
-use grandmasterx\encryptdectypt\interface\CipherInterface;
+use grandmasterx\encryptdectypt\interfaces\CipherInterface;
 
 /**
  * The PhpAesCipher class.

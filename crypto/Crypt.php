@@ -8,8 +8,8 @@
 
 namespace grandmasterx\encryptdectypt\crypto;
 
-use grandmasterx\encryptdectypt\interface\CryptInterface;
-use grandmasterx\encryptdectypt\interface\CipherInterface;
+use grandmasterx\encryptdectypt\interfaces\CryptInterface;
+use grandmasterx\encryptdectypt\interfaces\CipherInterface;
 
 /**
  * The Crypt class.

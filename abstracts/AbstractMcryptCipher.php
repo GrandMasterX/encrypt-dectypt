@@ -7,10 +7,10 @@
  * @license    GNU Lesser General Public License version 3 or later.
  */
 
-namespace grandmasterx\encryptdectypt\abstract;
+namespace grandmasterx\encryptdectypt\abstracts;
 
 use grandmasterx\encryptdectypt\helper\CryptHelper;
-use grandmasterx\encryptdectypt\interface\CipherInterface;
+use grandmasterx\encryptdectypt\interfaces\CipherInterface;
 
 /**
  * The McryptCipher class.

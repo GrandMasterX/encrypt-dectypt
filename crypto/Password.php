@@ -8,7 +8,7 @@
 
 namespace grandmasterx\encryptdectypt\crypto;
 
-use grandmasterx\encryptdectypt\interface\HasherInterface;
+use grandmasterx\encryptdectypt\interfaces\HasherInterface;
 
 /**
  * The SimplePassword class.

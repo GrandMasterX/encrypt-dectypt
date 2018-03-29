@@ -9,7 +9,7 @@
 namespace grandmasterx\encryptdectypt\crypto;
 
 use grandmasterx\encryptdectypt\helper\CryptHelper;
-use grandmasterx\encryptdectypt\abstract\AbstractCipher;
+use grandmasterx\encryptdectypt\abstracts\AbstractCipher;
 
 /**
  * The SodiumCipher class.

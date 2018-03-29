@@ -8,7 +8,7 @@
 
 namespace grandmasterx\encryptdectypt\crypto;
 
-use grandmasterx\encryptdectypt\abstract\AbstractOpensslCipher;
+use grandmasterx\encryptdectypt\abstracts\AbstractOpensslCipher;
 
 /**
  * The Aes256Cipher class.

@@ -26,10 +26,10 @@
     },
     "autoload": {
         "psr-4": {
-            "grandmasterx\\encryptdectypt\\abstract\\": "abstract/",
+            "grandmasterx\\encryptdectypt\\abstracts\\": "abstracts/",
             "grandmasterx\\encryptdectypt\\crypto\\": "crypto/",
             "grandmasterx\\encryptdectypt\\helper\\": "helper/",
-            "grandmasterx\\encryptdectypt\\interface\\": "interface/",
+            "grandmasterx\\encryptdectypt\\interfaces\\": "interfaces/",
             "grandmasterx\\encryptdectypt\\lib\\": "lib/"
         }
     }

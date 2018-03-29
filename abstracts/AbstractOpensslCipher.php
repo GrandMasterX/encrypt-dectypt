@@ -7,9 +7,9 @@
  * @license    GNU Lesser General Public License version 3 or later.
  */
 
-namespace grandmasterx\encryptdectypt\abstract;
+namespace grandmasterx\encryptdectypt\abstracts;
 
-use grandmasterx\encryptdectypt\abstract\AbstractCipher;
+use grandmasterx\encryptdectypt\abstracts\AbstractCipher;
 
 /**
  * The AbstractOpensslCipher class.

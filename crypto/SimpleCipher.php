@@ -8,6 +8,8 @@
 
 namespace grandmasterx\encryptdectypt\crypto;
 
+use grandmasterx\encryptdectypt\interfaces\CipherInterface;
+
 /**
  * The Simple class.
  * @deprecated  This cipher is not safe.

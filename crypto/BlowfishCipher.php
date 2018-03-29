@@ -8,6 +8,8 @@
 
 namespace grandmasterx\encryptdectypt\crypto;
 
+use grandmasterx\encryptdectypt\abstracts\AbstractOpensslCipher;
+
 /**
  * The BlowfishChipher class.
  */
