@@ -9,6 +9,7 @@
 namespace grandmasterx\encryptdectypt\abstracts;
 
 use grandmasterx\encryptdectypt\helper\CryptHelper;
+use grandmasterx\encryptdectypt\interfaces\CipherInterface;
 
 if (!defined('OPENSSL_RAW_DATA')) {
     define('OPENSSL_RAW_DATA', 1);
